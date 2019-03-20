@@ -48,6 +48,10 @@ async function add(hub) {
   return findById(id);
 }
 
+
+
+
+
 function remove(id) {
   return db('hubs')
     .where({ id })
