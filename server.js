@@ -27,7 +27,7 @@ function getPass(req, res, next) {
 // server.use(bouncer);
 server.use(express.json());
 server.use(helmet()); // Helmet helps you secure your Express apps by setting various HTTP headers.
-// server.use(teamer);
+server.use(teamer);
 // server.use(getPass);
 
 // routing
